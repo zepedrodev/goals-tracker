@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Goals Tracker — Stay on pace. Hit the date.</title>
+    <meta
+      name="description"
+      content="Goals Tracker turns a target and a deadline into a daily pace, then tells you if you are actually going to make it. All data stays on your phone."
+    />
+    <link rel="canonical" href="https://zepedrodev.github.io/goals-tracker/" />
+    <meta property="og:title" content="Goals Tracker" />
+    <meta
+      property="og:description"
+      content="Set a target and a date. See the pace you need, and whether you are on track."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zepedrodev.github.io/goals-tracker/" />
+    <meta property="og:image" content="https://zepedrodev.github.io/goals-tracker/assets/icon.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="./">
+          <img src="assets/icon.png" width="36" height="36" alt="" />
+          Goals Tracker
+        </a>
+        <div class="nav-links">
+          <a href="#how">How it works</a>
+          <a href="privacy/">Privacy policy</a>
+          <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.goalstracker.app">Get the app</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="kicker">Android · on-device</p>
+            <h1>Stay on pace. Hit the date.</h1>
+            <p class="lede">
+              Goals Tracker turns a target and a deadline into a required pace —
+              then tells you if you are actually going to make it. No accounts.
+              No cloud. Just the work, on your phone.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="https://play.google.com/store/apps/details?id=com.goalstracker.app">
+                Get it on Google Play
+              </a>
+              <a class="button button-ghost" href="#how">See how it works</a>
+            </div>
+            <p class="fine-print">English, Portuguese, Spanish, and French. Light and dark themes.</p>
+          </div>
+
+          <div class="phones" aria-hidden="true">
+            <div class="phone phone-home">
+              <div class="phone-screen">
+                <div class="status-bar"><span>9:41</span><span>LTE</span></div>
+                <div class="app-header">
+                  <h2>Your Goals</h2>
+                  <div class="header-actions">
+                    <span class="icon-btn" title="Settings">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+                    </span>
+                    <span class="add-btn">+</span>
+                  </div>
+                </div>
+                <div class="cal-label"><span>September 2026</span><span>‹ ›</span></div>
+                <div class="calendar">
+                  <span class="muted">31</span><span class="done">1</span><span class="done-blue">2</span><span class="done">3</span><span>4</span><span class="done">5</span><span class="done">6</span>
+                  <span class="done-blue">7</span><span class="done">8</span><span>9</span><span class="done">10</span><span class="done-blue">11</span><span class="done">12</span><span>13</span>
+                  <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+                  <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span>
+                  <span>28</span><span>29</span><span>30</span><span class="muted">1</span><span class="muted">2</span><span class="muted">3</span><span class="muted">4</span>
+                </div>
+                <article class="goal-card teal">
+                  <div class="goal-top">
+                    <span>Workout</span>
+                    <span class="goal-meta">42/60 · 70%</span>
+                  </div>
+                  <div class="bar"><i style="width:70%;background:#10b981"></i></div>
+                  <div class="goal-foot">
+                    <span class="status-great">Great</span>
+                    <span>Today</span>
+                  </div>
+                </article>
+                <article class="goal-card blue">
+                  <div class="goal-top">
+                    <span>Read 30 minutes</span>
+                    <span class="goal-meta">18/30 · 60%</span>
+                  </div>
+                  <div class="bar"><i style="width:60%;background:#14b8a6"></i></div>
+                  <div class="goal-foot">
+                    <span class="status-track">On Track</span>
+                    <span>Yesterday</span>
+                  </div>
+                </article>
+                <article class="goal-card orange">
+                  <div class="goal-top">
+                    <span>Portuguese practice</span>
+                    <span class="goal-meta">12/40 · 30%</span>
+                  </div>
+                  <div class="bar"><i style="width:30%;background:#f97316"></i></div>
+                  <div class="goal-foot">
+                    <span class="status-behind">Behind Schedule</span>
+                    <span>2 days ago</span>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="phone phone-detail">
+              <div class="phone-screen">
+                <div class="status-bar"><span>9:41</span><span>LTE</span></div>
+                <div class="detail-title">
+                  <h2>Workout</h2>
+                  <span class="muted">Edit · Delete</span>
+                </div>
+                <p class="muted">1 Sep 2026 – 31 Oct 2026</p>
+                <p class="muted">Calendar days: 6 / 61</p>
+                <div class="goal-card" style="margin-top:12px">
+                  <div class="goal-top">
+                    <span>Progress</span>
+                    <span class="goal-meta">42 / 60 completions</span>
+                  </div>
+                  <div class="bar"><i style="width:70%;background:#10b981"></i></div>
+                  <p class="status-great" style="margin:8px 0 0;font-size:0.8rem">Great</p>
+                  <p class="muted">Required pace: once every day</p>
+                </div>
+                <div class="log-btn">Log Entry</div>
+                <div class="history">
+                  <h3>History (42)</h3>
+                  <p><strong>6 Sep 2026</strong><br /><span class="muted">Morning session, 45 min</span></p>
+                  <p><strong>5 Sep 2026</strong><br /><span class="muted">Legs</span></p>
+                  <p><strong>3 Sep 2026</strong><br /><span class="muted">Rest day skipped — logged after travel</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="wrap">
+          <h2>Built for finishing, not just tracking</h2>
+          <p class="section-intro">
+            A percentage hides whether you can still catch up. Goals Tracker
+            compares what you have done with the pace the deadline demands.
+          </p>
+          <div class="features">
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">1×</div>
+              <h3>Required pace from the deadline</h3>
+              <p>
+                Enter how many times you want to do something and when it needs
+                to be done. The app calculates the average pace you have to keep.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">!</div>
+              <h3>Status that means something</h3>
+              <p>
+                Great, On Track, Behind, Urgent, Critical — based on how far you
+                are from the expected count, not a vague color on a ring.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">–</div>
+              <h3>Skip dates adjust the plan</h3>
+              <p>
+                Mark vacation or sick days. Remaining active days shrink, and
+                the required pace updates so the deadline still holds.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">▦</div>
+              <h3>Progress calendar</h3>
+              <p>
+                See which days you showed up across every goal. One glance tells
+                you if this week is real work or wishful counting.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">✓</div>
+              <h3>Feasibility before you start</h3>
+              <p>
+                Set a maximum pace you can actually sustain. If the deadline
+                asks for more than that, the app warns you before you commit.
+              </p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">↓</div>
+              <h3>Notes and history</h3>
+              <p>
+                Log an entry with an optional note. Edit or delete later. The
+                timeline is yours, stored only on the device.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="screens" style="padding-top:0">
+        <div class="wrap">
+          <h2>The screens you live in</h2>
+          <p class="section-intro">
+            Home list, goal detail, and a calendar of the days you actually did the work.
+          </p>
+          <div class="shots">
+            <figure class="shot">
+              <div class="phone">
+                <div class="phone-screen">
+                  <div class="status-bar"><span>9:41</span><span>LTE</span></div>
+                  <div class="app-header">
+                    <h2>Your Goals</h2>
+                    <span class="add-btn">+</span>
+                  </div>
+                  <article class="goal-card teal">
+                    <div class="goal-top"><span>Workout</span><span class="goal-meta">70%</span></div>
+                    <div class="bar"><i style="width:70%;background:#10b981"></i></div>
+                    <div class="goal-foot"><span class="status-great">Great</span><span>Today</span></div>
+                  </article>
+                  <article class="goal-card blue">
+                    <div class="goal-top"><span>Read 30 minutes</span><span class="goal-meta">60%</span></div>
+                    <div class="bar"><i style="width:60%;background:#14b8a6"></i></div>
+                    <div class="goal-foot"><span class="status-track">On Track</span><span>Yesterday</span></div>
+                  </article>
+                  <article class="goal-card orange">
+                    <div class="goal-top"><span>Portuguese</span><span class="goal-meta">30%</span></div>
+                    <div class="bar"><i style="width:30%;background:#f97316"></i></div>
+                    <div class="goal-foot"><span class="status-behind">Behind</span><span>2 days ago</span></div>
+                  </article>
+                </div>
+              </div>
+              <figcaption><p>Home — every goal, current status, last entry.</p></figcaption>
+            </figure>
+            <figure class="shot">
+              <div class="phone">
+                <div class="phone-screen">
+                  <div class="status-bar"><span>9:41</span><span>LTE</span></div>
+                  <h2 style="margin:0 0 6px;font-size:1.2rem">Workout</h2>
+                  <p class="muted">42 / 60 completions</p>
+                  <div class="bar"><i style="width:70%;background:#10b981"></i></div>
+                  <p class="status-great" style="font-size:0.8rem">Great</p>
+                  <p class="muted">Required pace: once every day</p>
+                  <p class="muted">Current pace: 1.2× per day</p>
+                  <div class="log-btn">Log Entry</div>
+                  <div class="history">
+                    <h3>History (42)</h3>
+                    <p><strong>Today</strong><br /><span class="muted">Morning session</span></p>
+                    <p><strong>Yesterday</strong><br /><span class="muted">Legs</span></p>
+                  </div>
+                </div>
+              </div>
+              <figcaption><p>Detail — pace, buffer, and a dated history.</p></figcaption>
+            </figure>
+            <figure class="shot">
+              <div class="phone">
+                <div class="phone-screen">
+                  <div class="status-bar"><span>9:41</span><span>LTE</span></div>
+                  <h2 style="margin:0 0 10px;font-size:1.2rem">Progress Calendar</h2>
+                  <div class="cal-label"><span>September 2026</span></div>
+                  <div class="calendar">
+                    <span class="muted">31</span><span class="done">1</span><span class="done-blue">2</span><span class="done">3</span><span>4</span><span class="done">5</span><span class="done">6</span>
+                    <span class="done-blue">7</span><span class="done">8</span><span>9</span><span class="done">10</span><span class="done-blue">11</span><span class="done">12</span><span>13</span>
+                    <span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+                    <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span>
+                    <span>28</span><span>29</span><span>30</span><span class="muted">1</span><span class="muted">2</span><span class="muted">3</span><span class="muted">4</span>
+                  </div>
+                  <p class="muted" style="margin-top:12px">Filled days are days you logged. Empty days in the past are misses. Future days stay quiet until you get there.</p>
+                </div>
+              </div>
+              <figcaption><p>Calendar — a month of showing up, color by goal.</p></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how" style="background:#fff;border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+        <div class="wrap">
+          <h2>How it works</h2>
+          <p class="section-intro">Three steps. The math stays in the background.</p>
+          <div class="steps">
+            <article>
+              <span class="step-num">1</span>
+              <h3>Name the action</h3>
+              <p class="muted">Workout. Read. Practice. Set how many times you want to complete it.</p>
+            </article>
+            <article>
+              <span class="step-num">2</span>
+              <h3>Set the window</h3>
+              <p class="muted">Pick a start and a deadline. The app shows the required pace and whether that pace is realistic for you.</p>
+            </article>
+            <article>
+              <span class="step-num">3</span>
+              <h3>Log as you go</h3>
+              <p class="muted">Tap to add an entry. Status updates immediately. Catch up before a miss turns into Urgent.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section privacy-band" id="privacy-first">
+        <div class="wrap privacy-grid">
+          <div>
+            <p class="kicker" style="color:#0f766e">Local first</p>
+            <h2>Your goals never leave the phone</h2>
+            <p class="section-intro" style="margin-bottom:18px">
+              There is no Goals Tracker account and no developer-operated server.
+              Titles, notes, dates, and backups stay in the app’s private storage.
+            </p>
+            <ul class="checks">
+              <li>No analytics, ads, or crash-reporting SDKs</li>
+              <li>Export and import backups yourself when you want a copy</li>
+              <li>Android backup can restore data on a new phone if you have it on — we cannot read that copy</li>
+            </ul>
+            <p><a href="privacy/">Read the full privacy policy</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <span>© 2026 Goals Tracker</span>
+        <span>
+          <a href="privacy/">Privacy policy</a>
+          ·
+          <a href="https://play.google.com/store/apps/details?id=com.goalstracker.app">Google Play</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
