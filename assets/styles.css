@@ -459,6 +459,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
+  margin-top: 56px;
 }
 
 .feature {
@@ -476,6 +477,14 @@ h1 {
 .feature p {
   margin: 0;
   color: var(--muted);
+}
+
+.feature p + p {
+  margin-top: 0.7em;
+}
+
+.feature .examples {
+  line-height: 1.85;
 }
 
 .feature-icon {
@@ -543,26 +552,6 @@ h1 {
   transform: rotate(-45deg);
 }
 
-.shots {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.shot {
-  text-align: center;
-}
-
-.shot .phone {
-  margin: 0 auto 14px;
-}
-
-.shot p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
 .site-footer {
   padding: 28px 0;
 }
@@ -618,8 +607,7 @@ code {
   .hero-grid,
   .features,
   .steps,
-  .privacy-grid,
-  .shots {
+  .privacy-grid {
     grid-template-columns: 1fr;
   }
 
